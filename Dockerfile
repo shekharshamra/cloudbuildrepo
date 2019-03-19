@@ -1,3 +1,3 @@
 FROM alpine
-curl https://storage.googleapis.com/github-quickstart/quickstart.sh
+COPY quickstart.sh /
 CMD ["/quickstart.sh"]
